@@ -22,5 +22,16 @@
     "completionist": "Полное прохождение",
     "allStyles": "Все стили",
     "viewDetails": "Подробнее",
-    "showHideStats": "Показать/скрыть статистику HLTB"
+    "showHideStats": "Показать/скрыть статистику HLTB",
+    "troubleshooting": "Troubleshooting",
+    "troubleshootingEndpoint": "Endpoint",
+    "troubleshootingHltb": "HLTB",
+    "troubleshootingAuth": "Auth",
+    "troubleshootingPlugin": "Plugin",
+    "troubleshootingChecking": "Checking",
+    "troubleshootingReachable": "Reachable",
+    "troubleshootingBroken": "Broken",
+    "troubleshootingReady": "Ready",
+    "troubleshootingFailed": "Failed",
+    "troubleshootingUnknown": "Unknown"
 }

@@ -22,5 +22,16 @@
     "completionist": "Completista",
     "allStyles": "Todos los estilos",
     "viewDetails": "Ver detalles",
-    "showHideStats": "Mostrar/Ocultar estadísticas HLTB"
+    "showHideStats": "Mostrar/Ocultar estadísticas HLTB",
+    "troubleshooting": "Troubleshooting",
+    "troubleshootingEndpoint": "Endpoint",
+    "troubleshootingHltb": "HLTB",
+    "troubleshootingAuth": "Auth",
+    "troubleshootingPlugin": "Plugin",
+    "troubleshootingChecking": "Checking",
+    "troubleshootingReachable": "Reachable",
+    "troubleshootingBroken": "Broken",
+    "troubleshootingReady": "Ready",
+    "troubleshootingFailed": "Failed",
+    "troubleshootingUnknown": "Unknown"
 }

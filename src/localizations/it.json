@@ -22,5 +22,16 @@
     "completionist": "Completista",
     "allStyles": "Tutti gli stili",
     "viewDetails": "Dettagli",
-    "showHideStats": "Commuta dati HLTB"
+    "showHideStats": "Commuta dati HLTB",
+    "troubleshooting": "Troubleshooting",
+    "troubleshootingEndpoint": "Endpoint",
+    "troubleshootingHltb": "HLTB",
+    "troubleshootingAuth": "Auth",
+    "troubleshootingPlugin": "Plugin",
+    "troubleshootingChecking": "Checking",
+    "troubleshootingReachable": "Reachable",
+    "troubleshootingBroken": "Broken",
+    "troubleshootingReady": "Ready",
+    "troubleshootingFailed": "Failed",
+    "troubleshootingUnknown": "Unknown"
 }

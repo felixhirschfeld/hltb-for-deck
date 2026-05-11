@@ -22,5 +22,16 @@
     "completionist": "Повне проходження",
     "allStyles": "Всі стилі",
     "viewDetails": "Докладніше",
-    "showHideStats": "Показати/сховати статистику HLTB"
+    "showHideStats": "Показати/сховати статистику HLTB",
+    "troubleshooting": "Troubleshooting",
+    "troubleshootingEndpoint": "Endpoint",
+    "troubleshootingHltb": "HLTB",
+    "troubleshootingAuth": "Auth",
+    "troubleshootingPlugin": "Plugin",
+    "troubleshootingChecking": "Checking",
+    "troubleshootingReachable": "Reachable",
+    "troubleshootingBroken": "Broken",
+    "troubleshootingReady": "Ready",
+    "troubleshootingFailed": "Failed",
+    "troubleshootingUnknown": "Unknown"
 }

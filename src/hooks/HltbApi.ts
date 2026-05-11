@@ -26,6 +26,12 @@ interface SearchAuth {
     hpVal: string;
 }
 
+export interface HltbTroubleshootingStatus {
+    hltb: 'reachable' | 'broken';
+    endpoint: string;
+    auth: 'ready' | 'failed';
+}
+
 let searchUrl: string = '';
 let searchAuth: SearchAuth | null = null;
 let bootstrapCacheLoaded = false;
@@ -485,6 +491,26 @@ async function fetchSearchResultsWithAuth(gameName: string, auth: SearchAuth) {
         headers: getSearchHeaders(auth),
         body: JSON.stringify(data),
     });
+}
+
+export async function checkHltbTroubleshootingStatus(): Promise<HltbTroubleshootingStatus> {
+    try {
+        await ensureBootstrapCacheLoaded();
+        const auth = await refreshSearchAuth();
+
+        return {
+            hltb: auth === null ? 'broken' : 'reachable',
+            endpoint: searchUrl || DEFAULT_SEARCH_URL,
+            auth: auth === null ? 'failed' : 'ready',
+        };
+    } catch (error) {
+        console.error('HLTB - troubleshooting check failed:', error);
+        return {
+            hltb: 'broken',
+            endpoint: searchUrl || DEFAULT_SEARCH_URL,
+            auth: 'failed',
+        };
+    }
 }
 
 async function fetchSearchResults(appName: string) {
